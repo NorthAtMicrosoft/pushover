@@ -1,4 +1,4 @@
-# Push MCP Server
+# Push MCP Server & Agent Skill
 
 An MCP stdio server that sends push notifications to your iPhone via [Pushover](https://pushover.net).
 
@@ -54,3 +54,4 @@ Add to your MCP client config (e.g. Claude Desktop `claude_desktop_config.json`)
 | `url_title` | string | no       | Title for the URL |
 | `html`      | bool   | no       | Enable HTML formatting |
 | `device`    | string | no       | Target a specific device |
+
