@@ -1,12 +1,16 @@
 # Push MCP Server & Agent Skill
 
-An MCP stdio server that sends push notifications to your iPhone via [Pushover](https://pushover.net).
+An MCP stdio server that sends push notifications to your phone via [Pushover](https://pushover.net).
 
 ## Setup
 
-1. **Create a Pushover account** at https://pushover.net and install the iOS app.
-2. **Create an application** at https://pushover.net/apps/build to get your **API Token**.
-3. **Note your User Key** from the Pushover dashboard.
+1. **Create a Pushover account** at https://pushover.net.
+2. **Install the Pushover app** on your device:
+   - **iPhone/iPad**: Download [Pushover](https://apps.apple.com/us/app/pushover-notifications/id506088175) from the App Store.
+   - **Android**: Download [Pushover](https://play.google.com/store/apps/details?id=net.superblock.pushover) from Google Play.
+3. **Log in** to the app with your Pushover account. The app includes a free trial; after that it is a one-time purchase per platform.
+4. **Create an application** at https://pushover.net/apps/build to get your **API Token**.
+5. **Note your User Key** shown on the Pushover dashboard.
 
 ## Install Dependencies
 

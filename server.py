@@ -20,7 +20,7 @@ def _get_credentials() -> tuple[str, str]:
 @mcp.tool(
     name="send_push",
     description=(
-        "Send a push notification to your iPhone via Pushover. "
+        "Send a push notification to your phone via Pushover. "
         "Supports title, message, priority, sound, URL, and HTML formatting."
     ),
 )
