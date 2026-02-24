@@ -11,7 +11,7 @@ An MCP stdio server that sends push notifications to your iPhone via [Pushover](
 ## Install Dependencies
 
 ```sh
-python3.13 -m pip install -r requirements.txt
+python -m pip install -r requirements.txt
 ```
 
 ## Configuration
@@ -31,8 +31,8 @@ Add to your MCP client config (e.g. Claude Desktop `claude_desktop_config.json`)
 {
   "mcpServers": {
     "push": {
-      "command": "python3.13",
-      "args": ["C:\\Users\\northoverby\\projects\\mcp\\push\\server.py"],
+      "command": "python",
+      "args": ["%USERPROFILE%\\projects\\mcp\\push\\server.py"],
       "env": {
         "PUSHOVER_TOKEN": "your-app-api-token",
         "PUSHOVER_USER": "your-user-key"
